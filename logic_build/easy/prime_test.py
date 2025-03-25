@@ -10,4 +10,6 @@ def is_prime(num):
     result = [n for n in range(1, num + 1) if num % n == 0]
     return len(result) == 2
 
-print(is_prime(11))
+
+res = is_prime(11)
+print(res)
